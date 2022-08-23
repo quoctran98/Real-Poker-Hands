@@ -81,8 +81,24 @@ let fake_hands = [
     "all_evens"
 ]
 
+let hands = [
+    "straight_flush",
+    "four_of_a_kind",
+    "all_same",
+    "full_house",
+    "gene_name",
+    "flush",
+    "straight",
+    "all_odds",
+    "all_evens",
+    "three_of_a_kind",
+    "two_pair",
+    "double_back",
+    "pair",
+    "high_card"
+];
+
 // choosing the hands and creating blank html boxes for them
-hands = fake_hands;
 intiate_list(hands.length);
 
 // retrieve the hands from the json file and display them
