@@ -74,26 +74,30 @@ let real_hands = [
 ];
 
 let fake_hands = [
-    "all_same",
+    "jarts",
     "double_back",
     "gene_name",
     "no_cards",
     "all_odds",
-    "all_evens"
+    "all_evens",
+    "all_primes",
+    "flipped_pair"
 ]
 
 let hands = [
     "straight_flush",
     "four_of_a_kind",
-    "all_same",
+    "jarts",
     "full_house",
     "gene_name",
     "no_cards",
     "flush",
+    "all_primes",
     "straight",
     "all_odds",
     "all_evens",
     "three_of_a_kind",
+    "flipped_pair",
     "two_pair",
     "double_back",
     "pair",

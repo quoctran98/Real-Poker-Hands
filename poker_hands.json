@@ -99,7 +99,7 @@
     },
 
     "all_evens": {
-        "title": "All Evens",
+        "title": "Even Steven",
         "description": "Five cards with even numbers.",
         "cards": [
             "2_of_spades", "8_of_hearts", "6_of_spades", "8_of_hearts", "10_of_clubs"
@@ -110,7 +110,7 @@
     },
     
     "all_odds": {
-        "title": "All Odds",
+        "title": "Odd Todd",
         "description": "Five cards with odd numbers.",
         "cards": [
             "9_of_clubs", "3_of_hearts", "7_of_hearts", "9_of_diamonds", "5_of_clubs"
@@ -142,9 +142,9 @@
         ]
     },
 
-    "all_same": {
-        "title": "All Same",
-        "description": "Five cards are all the same card.",
+    "jarts": {
+        "title": "Whoops, All Jarts!",
+        "description": "All five cards are Jarts (Jack + Hearts).",
         "cards": [
             "jack_of_hearts", "jack_of_hearts", "jack_of_hearts", "jack_of_hearts", "jack_of_hearts"
         ],
@@ -154,13 +154,35 @@
     },
 
     "no_cards": {
-        "title": "Whoops! No Cards",
-        "description": "You accidentally lose all of your cards.",
+        "title": "Toilet Flush",
+        "description": "You accidentally flush all of your cards down the toilet.",
         "cards": [
             "blank", "blank", "blank", "blank", "blank"
         ],
         "active_cards": [
             true, true, true, true, true
+        ]
+    },
+
+    "all_primes": {
+        "title": "Prime Time",
+        "description": "All five cards are primes numbers.",
+        "cards": [
+            "5_of_spades", "3_of_hearts", "5_of_clubs", "7_of_hearts", "2_of_clubs"
+        ],
+        "active_cards": [
+            true, true, true, true, true
+        ]
+    },
+
+    "flipped_pair": {
+        "title": "Flipped Pair",
+        "description": "Two cards that could look similar if they were flipped around.",
+        "cards": [
+            "2_of_spades", "5_of_hearts", "jack_of_diamonds", "ace_of_clubs", "9_of_spades"
+        ],
+        "active_cards": [
+            true, true, false, false, false
         ]
     }
 }
