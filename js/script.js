@@ -61,24 +61,19 @@ function intiate_list (n_hands) {
 }
 
 // hands in the order they should be displayed
-let list_of_hands = [
+let real_hands = [
     "straight_flush",
-    "all_same",
     "four_of_a_kind",
-    "double_back",
     "full_house",
     "flush",
     "straight",
-    "gene_name",
     "three_of_a_kind",
-    "all_odds",
-    "all_evens",
     "two_pair",
     "pair",
     "high_card"
 ];
 
-list_of_hands = [
+let fake_hands = [
     "all_same",
     "double_back",
     "gene_name",
@@ -86,16 +81,16 @@ list_of_hands = [
     "all_evens"
 ]
 
-
-// creating blank html boxes for the hands
-intiate_list(list_of_hands.length);
+// choosing the hands and creating blank html boxes for them
+hands = fake_hands;
+intiate_list(hands.length);
 
 // retrieve the hands from the json file and display them
 fetch('./poker_hands.json')
 .then((response) => response.json())
 .then((poker_hands) => {
-    for (let i = 0; i < list_of_hands.length; i++) {
-        let hand = object_to_poker_hand(poker_hands[list_of_hands[i]]);
+    for (let i = 0; i < hands.length; i++) {
+        let hand = object_to_poker_hand(poker_hands[hands[i]]);
         hand.set_HTML(i);
     }
 });
