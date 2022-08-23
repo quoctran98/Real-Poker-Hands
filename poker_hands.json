@@ -166,7 +166,7 @@
 
     "all_primes": {
         "title": "Prime Time",
-        "description": "All five cards are primes numbers.",
+        "description": "All five cards are prime numbers.",
         "cards": [
             "5_of_spades", "3_of_hearts", "5_of_clubs", "7_of_hearts", "2_of_clubs"
         ],
@@ -177,7 +177,7 @@
 
     "flipped_pair": {
         "title": "Flipped Pair",
-        "description": "Two cards that could look similar if they were flipped around.",
+        "description": "Two cards whos rank could look similar if they were flipped around.",
         "cards": [
             "2_of_spades", "5_of_hearts", "jack_of_diamonds", "ace_of_clubs", "9_of_spades"
         ],
