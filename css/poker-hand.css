@@ -1,0 +1,58 @@
+.poker-hand {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.title-container {
+    font-size: larger;
+    font-weight: bold;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container {
+    font-size: medium;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    max-width: 100%;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: left;
+}
+
+.on-card {
+    max-width:20%;
+    height: auto;
+    border-color: #000000 #000000 #000000 #000000;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+.off-card {
+    max-width:20%;
+    height: auto;
+    border-color: #000000 #000000 #000000 #000000;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 1px;
+
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.inline-image {
+    height: 1em;
+}
