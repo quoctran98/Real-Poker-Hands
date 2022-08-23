@@ -151,5 +151,16 @@
         "active_cards": [
             true, true, true, true, true
         ]
+    },
+
+    "no_cards": {
+        "title": "Whoops! No Cards",
+        "description": "You accidentally lose all of your cards.",
+        "cards": [
+            "blank", "blank", "blank", "blank", "blank"
+        ],
+        "active_cards": [
+            true, true, true, true, true
+        ]
     }
 }

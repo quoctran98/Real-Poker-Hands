@@ -77,6 +77,7 @@ let fake_hands = [
     "all_same",
     "double_back",
     "gene_name",
+    "no_cards",
     "all_odds",
     "all_evens"
 ]
@@ -87,6 +88,7 @@ let hands = [
     "all_same",
     "full_house",
     "gene_name",
+    "no_cards",
     "flush",
     "straight",
     "all_odds",
